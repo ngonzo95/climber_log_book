@@ -33,3 +33,12 @@ then in chrome go to http://localhost:3000 and you should see the default rails 
 to see the app as it is so far you can go to http://localhost:3000/climbing_routes.
 this is the starting point that you will make your changes from. Note this database
 is designed to be wiped clean and reloaded so spend a lot of time adding you favorite climbs cause they might just disappear
+
+
+## Running Tests
+Test are the most important part of this whole project. This just has some basic test to show you how they work
+but I highly recommend looking at them and writing new ones before you start coding for a story.
+to run them do
+```
+rails test
+```
