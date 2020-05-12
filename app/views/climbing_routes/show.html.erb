@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @climbing_route.name %>
+</p>
+
+<p>
+  <strong>Rating:</strong>
+  <%= @climbing_route.rating %>
+</p>
+
+<p>
+  <strong>Beta:</strong>
+  <%= @climbing_route.beta %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @climbing_route.description %>
+</p>
+
+<%= link_to 'Edit', edit_climbing_route_path(@climbing_route) %> |
+<%= link_to 'Back', climbing_routes_path %>

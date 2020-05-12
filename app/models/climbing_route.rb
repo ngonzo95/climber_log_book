@@ -1,0 +1,2 @@
+class ClimbingRoute < ApplicationRecord
+end
